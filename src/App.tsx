@@ -52,7 +52,7 @@ export default function App() {
               <div className="flex gap-2 text-pink-soft/60">
                 <span>[system]</span>
                 <Typewriter 
-                  text="Initializing heart.PROTOCOL_v2.0..." 
+                  text="Hello sayang! I Have a gift for you!" 
                   delay={30} 
                   onComplete={() => setConsoleFinished(true)}
                 />
@@ -78,7 +78,7 @@ export default function App() {
                   className="pt-8 flex flex-col items-start gap-6"
                 >
                   <p className="text-white/40 italic">
-                    {">"} One encrypted package found for you.
+                    {">"} One package found for you.
                   </p>
                   
                   <button
